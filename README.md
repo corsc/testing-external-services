@@ -58,7 +58,7 @@ I always recommend you add enough tests to make yourself feel comfortable (and n
 Remember, too many tests does have a (maintenance) cost too.
 
 ## UAT tests
-[Code](external/search/implementation_unit_test.go)
+[Code](external/search/implementation_uat_test.go)
 
 These tests verify our API contract with our users.
 
@@ -80,7 +80,7 @@ incorrect.
 Personally I find this results in faster identification/debugging of issues.
 
 ## E2E tests
-[Code](external/search/implementation_unit_test.go)
+[Code](external/search/implementation_e2e_test.go)
 
 These tests ensure that this package provides the functionality it intends to.
 
